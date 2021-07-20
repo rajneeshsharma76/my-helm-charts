@@ -23,6 +23,16 @@ entries:
     version: 0.1.0
   app2:
   - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-07-21T00:21:23.991783+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 27a703c40ea530031a44ebe0c23d5ef6849966ca21fa2b63fccdf4633e944237
+    name: app2
+    type: application
+    urls:
+    - https://github.com/rajneeshsharma76/my-helm-charts/releases/download/app2-0.3.0/app2-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2021-07-20T18:51:45.350079+05:30"
     description: A Helm chart for Kubernetes
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://github.com/rajneeshsharma76/my-helm-charts/releases/download/app2-0.1.0/app2-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-21T00:03:50.325152+05:30"
+generated: "2021-07-21T00:21:23.991807+05:30"
