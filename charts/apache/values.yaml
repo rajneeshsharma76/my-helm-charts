@@ -137,9 +137,9 @@ tolerations: []
 ## @param cloneHtdocsFromGit.extraVolumeMounts Add extra volume mounts for the GIT containers
 ##
 cloneHtdocsFromGit:
-  enabled: false
-  repository:
-  branch:
+  enabled: true
+  repository: https://github.com/rajneeshsharma76/website.git
+  branch: main
   interval: 60
   resources: {}
   ## Useful to mount keys to connect through ssh. (normally used with extraVolumes)
