@@ -275,7 +275,7 @@ sidecars: {}
 service:
   ## @param service.type Apache Service type
   ##
-  type: LoadBalancer
+  type: ClusterIP
   ## @param service.port Apache service HTTP port
   ##
   port: 80
