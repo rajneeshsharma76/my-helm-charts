@@ -5,6 +5,38 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.4.48
+    created: "2021-07-23T01:18:20.992875+05:30"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for Apache HTTP Server
+    digest: 813d5f126a7e4d5b661fc4a8fb459cbe6e08f7950e15e703bc3f7ac93d77eb02
+    home: https://github.com/bitnami/charts/tree/master/bitnami/apache
+    icon: https://bitnami.com/assets/stacks/apache/img/apache-stack-220x234.png
+    keywords:
+    - apache
+    - http
+    - https
+    - www
+    - web
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: apache
+    sources:
+    - https://github.com/bitnami/bitnami-docker-apache
+    - https://httpd.apache.org
+    urls:
+    - https://github.com/rajneeshsharma76/my-helm-charts/releases/download/apache-8.5.11/apache-8.5.11.tgz
+    version: 8.5.11
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 2.4.48
     created: "2021-07-23T01:03:26.209485+05:30"
     dependencies:
     - name: common
@@ -107,4 +139,4 @@ entries:
     urls:
     - https://github.com/rajneeshsharma76/my-helm-charts/releases/download/app2-0.1.0/app2-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-23T01:03:26.209511+05:30"
+generated: "2021-07-23T01:18:20.992899+05:30"
