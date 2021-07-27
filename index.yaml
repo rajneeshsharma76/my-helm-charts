@@ -142,6 +142,16 @@ entries:
   chartmkd:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-07-27T10:59:13.141349+05:30"
+    description: A Helm chart for Kubernetes
+    digest: daf75d7dd885467d7e86aca11265e5efa446a62157ebc4f3cdee07702995a02f
+    name: chartmkd
+    type: application
+    urls:
+    - https://github.com/rajneeshsharma76/my-helm-charts/releases/download/chartmkd-0.3.0/chartmkd-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-07-27T02:11:08.028958+05:30"
     description: A Helm chart for Kubernetes
     digest: 71c29bad20bc4a127ad7bf1d9a0f71b0fbd2b8eb27baf24e67a08ddcfc10691a
@@ -160,4 +170,4 @@ entries:
     urls:
     - https://github.com/rajneeshsharma76/my-helm-charts/releases/download/chartmkd-0.1.0/chartmkd-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-27T02:11:08.028989+05:30"
+generated: "2021-07-27T10:59:13.141489+05:30"
